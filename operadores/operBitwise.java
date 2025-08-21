@@ -2,6 +2,7 @@ public class operBitwise {
     public static void main(String[] args) {
         var valor1 = 6;
         var binario1 = Integer.toBinaryString(valor1);
+        //toBinaryString é usado para inverter o int(integer) ao String binário
         System.out.printf("Primeiro número da operação %s (representação binária %s)\n", valor1, binario1);
 
         var valor2 = 5;
@@ -11,4 +12,5 @@ public class operBitwise {
         var binarioresultado = Integer.toBinaryString(resultado);
         System.out.printf("%s | %s = %s (representação binária %s)\n", valor1, valor2, resultado, binarioresultado);
     }
+
 }
