@@ -14,8 +14,8 @@ public class operArimeticos {
         System.out.println("Informe o primeiro número:");
         var valor2 = scanner.nextInt();
         System.out.printf("a potência de %s é %s\n", valor2, Math.pow(valor1, 2));
-        //Math.pow: potência
-        //Math.sqrt: retorna em DOUBLE
+        //pow: potência
+        //sqrt: retorna em DOUBLE
 
 
         //3
@@ -37,4 +37,3 @@ public class operArimeticos {
         System.out.printf("%s x %s = %s\n", valor5, valor6, valor5 * valor6);
     }
 }
-
